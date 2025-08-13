@@ -1,0 +1,18 @@
+mongoose ek package h jise use krte h mongodb se connect krne k liye.
+
+
+1->// create the schema using  - 
+const userSchema = new mongoose({
+  first_name :{
+        type : String,
+        required :true
+    },etc.
+} )
+
+2->// create model sso that we can ascees the db. using-
+const usermadel= mongoose.model('users', userSchema
+
+)
+
+3-> // connection 
+mongoose.connect("url")
